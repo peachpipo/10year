@@ -11,19 +11,19 @@
 		DD72370E258E4BB1009746FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72370D258E4BB1009746FA /* SceneDelegate.swift */; };
 		DD723710258E4BB1009746FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD72370F258E4BB1009746FA /* ViewController.swift */; };
 		DD723713258E4BB1009746FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD723711258E4BB1009746FA /* Main.storyboard */; };
-		DD723715258E4BB3009746FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD723714258E4BB3009746FA /* Assets.xcassets */; };
 		DD723718258E4BB3009746FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD723716258E4BB3009746FA /* LaunchScreen.storyboard */; };
+		DD7E4DB4259A2B0A000043E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7E4DB3259A2B0A000043E2 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD723708258E4BB1009746FA /* WeightLossChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightLossChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD723708258E4BB1009746FA /* 10yearChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 10yearChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD72370B258E4BB1009746FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD72370D258E4BB1009746FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DD72370F258E4BB1009746FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD723712258E4BB1009746FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DD723714258E4BB3009746FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD723717258E4BB3009746FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD723719258E4BB3009746FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7E4DB3259A2B0A000043E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +40,7 @@
 		DD7236FF258E4BB1009746FA = {
 			isa = PBXGroup;
 			children = (
-				DD72370A258E4BB1009746FA /* WeightLossChange */,
+				DD72370A258E4BB1009746FA /* 10yearChallenge */,
 				DD723709258E4BB1009746FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +48,31 @@
 		DD723709258E4BB1009746FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD723708258E4BB1009746FA /* WeightLossChange.app */,
+				DD723708258E4BB1009746FA /* 10yearChallenge.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD72370A258E4BB1009746FA /* WeightLossChange */ = {
+		DD72370A258E4BB1009746FA /* 10yearChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				DD7E4DB3259A2B0A000043E2 /* Assets.xcassets */,
 				DD72370B258E4BB1009746FA /* AppDelegate.swift */,
 				DD72370D258E4BB1009746FA /* SceneDelegate.swift */,
 				DD72370F258E4BB1009746FA /* ViewController.swift */,
 				DD723711258E4BB1009746FA /* Main.storyboard */,
-				DD723714258E4BB3009746FA /* Assets.xcassets */,
 				DD723716258E4BB3009746FA /* LaunchScreen.storyboard */,
 				DD723719258E4BB3009746FA /* Info.plist */,
 			);
-			path = WeightLossChange;
+			path = 10yearChallenge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD723707258E4BB1009746FA /* WeightLossChange */ = {
+		DD723707258E4BB1009746FA /* 10yearChallenge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD72371C258E4BB3009746FA /* Build configuration list for PBXNativeTarget "WeightLossChange" */;
+			buildConfigurationList = DD72371C258E4BB3009746FA /* Build configuration list for PBXNativeTarget "10yearChallenge" */;
 			buildPhases = (
 				DD723704258E4BB1009746FA /* Sources */,
 				DD723705258E4BB1009746FA /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = WeightLossChange;
+			name = 10yearChallenge;
 			productName = WeightLossChange;
-			productReference = DD723708258E4BB1009746FA /* WeightLossChange.app */;
+			productReference = DD723708258E4BB1009746FA /* 10yearChallenge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD723703258E4BB1009746FA /* Build configuration list for PBXProject "WeightLossChange" */;
+			buildConfigurationList = DD723703258E4BB1009746FA /* Build configuration list for PBXProject "10yearChallenge" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD723707258E4BB1009746FA /* WeightLossChange */,
+				DD723707258E4BB1009746FA /* 10yearChallenge */,
 			);
 		};
 /* End PBXProject section */
@@ -125,7 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD723718258E4BB3009746FA /* LaunchScreen.storyboard in Resources */,
-				DD723715258E4BB3009746FA /* Assets.xcassets in Resources */,
+				DD7E4DB4259A2B0A000043E2 /* Assets.xcassets in Resources */,
 				DD723713258E4BB1009746FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +287,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WeightLossChange/Info.plist;
+				INFOPLIST_FILE = 10yearChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +305,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WeightLossChange/Info.plist;
+				INFOPLIST_FILE = 10yearChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD723703258E4BB1009746FA /* Build configuration list for PBXProject "WeightLossChange" */ = {
+		DD723703258E4BB1009746FA /* Build configuration list for PBXProject "10yearChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD72371A258E4BB3009746FA /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD72371C258E4BB3009746FA /* Build configuration list for PBXNativeTarget "WeightLossChange" */ = {
+		DD72371C258E4BB3009746FA /* Build configuration list for PBXNativeTarget "10yearChallenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD72371D258E4BB3009746FA /* Debug */,
